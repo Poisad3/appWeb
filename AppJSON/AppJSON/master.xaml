@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJSON.master"
+             Title="Master">
+    <StackLayout Orientation="Vertical">
+        <Button Text="Ver productos" x:Name="btnVerProdu" Clicked="btnVerProdu_Clicked" ImageSource="search" ContentLayout="Right, 40"/>
+        <Button Text="Mas información" x:Name="btninfo" Clicked="btninfo_Clicked" ImageSource="info" ContentLayout="Right, 40"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJSON.Detalle"
+             Title="Detalle de Productos">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Grid Margin="20 , 35, 20, 20" Padding="30, 30, 30, 30" BackgroundColor="Cornsilk"
+                  RowSpacing="5" ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Nombre del producto:" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="0" Grid.Column="1" FontSize="Body" x:Name="lblName"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Descripcion del producto:" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="1" Grid.Column="1" FontSize="Body" x:Name="lblDesc"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="2" Grid.Column="0" Text="Precio del producto:" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="2" Grid.Column="1" FontSize="Body" x:Name="lblPrecio"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="3" Grid.Column="0" Text="Unidades del producto:" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="3" Grid.Column="1" FontSize="Body" x:Name="lblCantidad"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="4" Grid.Column="0" Text="Disponibilidad del producto:" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="4" Grid.Column="1" FontSize="Body" x:Name="lblEstado"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

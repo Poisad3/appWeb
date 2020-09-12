@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppJSON.Informacion"
+             Title="Acerca de">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20 , 35, 20, 20" Padding="30, 30, 30, 30" BackgroundColor="Cornsilk"
+                  RowSpacing="5" ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Aplicacion creada con Xamarin para el curso de Paginas web grupo #5" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Universidad Mariano Galvez de Guatemala" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="2" Grid.Column="0" Text="CARLOS EMANUEL BLANCO ESPADEROS 1990-13-12979" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="3" Grid.Column="0" Text="MARVIN JARDEL XIQUITÁ XAJPOT 1990-12-12974" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="4" Grid.Column="0" Text="MELVIN EFRAÍN TUM YOS 1990-14-10076" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label Grid.Row="5" Grid.Column="0" Text="ESVIN ENRIQUE INAY XÓN 1990-16-11847" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+            </Grid>
+            <Label Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="https://umg.edu.gt/wp-content/uploads/2016/01/480-300x300.png"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

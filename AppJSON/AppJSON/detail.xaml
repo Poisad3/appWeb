@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Xamd.ImageCarousel.Forms.Plugin.Abstractions;assembly=Xamd.ImageCarousel.Forms.Plugin.Abstractions"  
+             x:Class="AppJSON.detail"
+             Title="Menu">
+    <ContentPage.Content>
+        <ScrollView HeightRequest="300">
+        <StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                    <Image Margin="0,50,0,0" x:Name="imgBanner" Source="banner.png" ></Image>
+                </StackLayout>
+                <Grid Margin="20 , 35, 20, 20" Padding="30, 30, 30, 30" BackgroundColor="Cornsilk"
+                  RowSpacing="5" ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Text="" FontSize="Header"/>
+                <Label Grid.Row="0" Grid.Column="0" Text="Encuentra todos los productos que necesitas" FontSize="Body"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black"/>
+            </Grid>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="End">
+                    <controls:ImageCarousel x:Name="imgSlider" HeightRequest="300" WidthRequest="300" />
+                </StackLayout>
+                <Label Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="logo"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
